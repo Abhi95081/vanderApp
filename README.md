@@ -17,15 +17,14 @@ To get started, vendors must create an account by providing basic details such a
 
 ### 🖼️ Create Account Screen
 
- ![image](https://github.com/user-attachments/assets/c6b377fe-b3ed-493a-b713-56fb1553ce2c)
-
+![image](https://github.com/user-attachments/assets/aae55912-055c-46ca-989d-817fa0d727f8)
 
 ### 📲 Tech Stack
 Kotlin
 
 Jetpack Compose
 
-Firebase / Supabase (Authentication and Database)
+Shared Pref(Authentication and Database)
 
 MVVM Architecture
 
