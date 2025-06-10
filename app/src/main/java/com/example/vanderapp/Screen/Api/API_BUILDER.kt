@@ -5,7 +5,7 @@ import retrofit2.http.FormUrlEncoded
 import retrofit2.http.GET
 import retrofit2.http.POST
 
-interface API_BUIILDER {
+interface API_BUILDER {
 
     @GET("/getAllusers")
     suspend fun getAllusers() : UserTest

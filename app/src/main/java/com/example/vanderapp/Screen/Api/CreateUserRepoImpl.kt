@@ -4,7 +4,7 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 
 class CreateUserRepoImpl (
-    private val api : API_BUIILDER
+    private val api : API_BUILDER
 ) : CreateuserRepo{
     override suspend fun createuser(): Flow<Result<usercreateresponse>> {
         return flow {
