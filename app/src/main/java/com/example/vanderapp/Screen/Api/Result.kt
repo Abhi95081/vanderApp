@@ -8,3 +8,6 @@ sealed class Result<T> (
     class Loading(message: String?): Result<String>(message = message)
     class Error<T>(data: T?=null, message: String?): Result<T>(data= data, message=message)
 }
+
+// sealed class in which we can make constant classes.
+//<T>  Generic class(it means we can pass any type of data)

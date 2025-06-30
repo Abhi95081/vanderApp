@@ -8,7 +8,7 @@ class CreateUserRepoImpl (
 ) : CreateuserRepo{
     override suspend fun createuser(): Flow<Result<usercreateresponse>> {
         return flow {
-           val response = try {
+           val userCreateResponse = try {
                 api.createuser(
                     "Abhishek",
                     "123",
@@ -21,7 +21,7 @@ class CreateUserRepoImpl (
                 emit(Result.Error(message = e.localizedMessage?.toString()))
                 return@flow
             }
-            emit( Result.success(response))
+            emit( Result.success(userCreateResponse))
 
         }
     }
