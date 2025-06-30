@@ -20,11 +20,11 @@ To get started, vendors must create an account by providing basic details such a
 ![image](https://github.com/user-attachments/assets/aae55912-055c-46ca-989d-817fa0d727f8)
 
 ### 📲 Tech Stack
-Kotlin
+-> Kotlin
 
-Jetpack Compose
+-> Jetpack Compose
 
-Shared Pref(Authentication and Database)
+-> Shared Pref(Authentication and Database)
 
-MVVM Architecture
+-> MVVM Architecture
 
